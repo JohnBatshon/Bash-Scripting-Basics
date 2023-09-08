@@ -20,7 +20,7 @@ do
 
     # Use the random number as an index into the word list
     word_index=$(($rand_num_dec % $total_word_count))
-    random_word=`awk -v idx="$word_index" '{if (NR==idx) print $1}' ../wordlist.txt`
+    random_word=`awk -v idx="$word_index" '{if (NR==idx) print $1}' wordlist.txt`
 
     # Capitalize the word
     random_word_upper=`echo ${random_word^}`
