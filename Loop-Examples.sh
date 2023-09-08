@@ -45,7 +45,7 @@ echo While loop
 
 # Countdown to blastoff
 echo Executing a while loop to countdown to blastoff
-counter=5
+counter=10
 while [[ $counter -gt 0 ]]; do
     echo Countdown [$counter]
     counter=$(($counter - 1))
