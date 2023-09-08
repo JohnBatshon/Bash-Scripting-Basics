@@ -8,7 +8,7 @@ separator=$2
 password=''
 
 # Get the total number of words in the word list
-total_word_count=`wc -l ../wordlist.txt | awk '{print $1;}'`
+total_word_count=`wc -l wordlist.txt | awk '{print $1;}'`
 
 
 # Build the password using the specified number of words
